@@ -32,7 +32,7 @@ provider "helm" {
 
 
 module "lab" {
-  source = "git::https://github.com/rogerio-tecinfo/terraform-module-aks.git?ref=v3"
+  source = "git::https://github.com/rogerio-tecinfo/terraform-module-aks.git"
   env                     = "lab"
   project_name            = "zeus"
   node_pool_name          = "default"
